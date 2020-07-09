@@ -23,3 +23,5 @@ cd ~/path/to/batch/
 <sub>Please note that if the Vina executable is installed in the user's bin folder, you can just use <code> ./submit.sh input [receptor].pdbqt params.txt vina </code></sub>
 
 Please acknowledge use of this script in any publication containing results from the use of this script in the following manner: <i>"Batch Submission Script for AutoDock Vina by Bhavesh Ashok (github.com/bhaveshashok/AutoDockVina-BatchSubmission/)"</i>. Citation of this github repository is also required.
+
+If you choose to make modifications to this script, please acknowledge or cite this script as a foundation as outlined above.
