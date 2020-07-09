@@ -1,4 +1,4 @@
-﻿# AutoDockVina-BatchSubmission
+﻿# Batch Submission for AutoDock Vina
  
 This script is for use with AutoDock Vina on <b>MacOS</b> and <b>Linux machines</b>.
 
