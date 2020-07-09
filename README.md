@@ -2,7 +2,7 @@
  
 This script is for use with AutoDock Vina on <b>MacOS</b> and <b>Linux machines</b>.
 
-To use this script, please prepare the ligand .pdbqts and place them into the input folder. The receptor.pdbqt should be placed in the main directory. The params.txt should contain all the information inputted into a configuration file for AutoDock Vina (center_x, center_y, center_z, size_x, size_y, size_z define the Grid Box and are required). This should also be put into the main directory. Please refer to the diagram below for the file structure. AutoDock Vina is a prerequisite software needed for this script to work.
+To use this script, prepare the ligand .pdbqts and place them into the input folder. The receptor.pdbqt should be placed in the main directory. The params.txt should contain all the information inputted into a configuration file for AutoDock Vina (center_x, center_y, center_z, size_x, size_y, size_z define the Grid Box and are required). This should also be put into the main directory. Please refer to the diagram below for the file structure. AutoDock Vina is a prerequisite software needed for this script to work.
 ```
 .
 +-- batch
