@@ -20,7 +20,7 @@ The syntax to use the script is as follows:<br>
 $ cd ~/path/to/batch/
 $ ./submit.sh input [receptor].pdbqt params.txt ~/path/to/Vina/bin/vina
 ```
-As per any script, please provide execution priviledges by using <code>$ chmod +x submit.sh</code>
+As per any script, please provide execution priviledges by using <code>$ chmod +x submit.sh</code><br>
 <sub>Please note that if the Vina executable is installed in the user's bin folder, one can just use <code>./submit.sh input [receptor].pdbqt params.txt vina</code></sub>
 
 Please acknowledge use of this script in any publication containing results from the use of this script in the following manner: <i>"Batch Submission Script for AutoDock Vina by Bhavesh Ashok (github.com/bhaveshashok/AutoDockVina-BatchSubmission/)"</i>. Citation of this github repository is also required.
