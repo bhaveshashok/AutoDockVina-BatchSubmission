@@ -9,7 +9,7 @@ do
     #echo $ligand
     name=$(echo $ligand | sed 's/.*\///;s/\..*//')
     echo "Generating configuration for $name ..."
-    mkdir -p "$name"
+mkdir -p "$name"
     cp $ligand $name
     cp $2 $name
     ligandfname=$(echo $ligand | sed 's/.*\///')
@@ -26,7 +26,7 @@ do
     name=$(echo $ligand | sed 's/.*\///;s/\..*//')
     pushd $name
     echo "Docking $name ..."
-    $("$4" --config "${name}_conf.txt" --log "${name}_log.txt")
+    "$4" --config "${name}_conf.txt" --log "${name}_log.txt"
     popd
     rm $ligand
     echo "Done!"
